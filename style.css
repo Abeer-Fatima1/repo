@@ -168,6 +168,18 @@ main{
   font-size: 14px;
 }
 
+@media screen and (max-width:1600px){
+  .DD{
+    width: 560px;
+  }
+}
+
+@media screen and (max-width:1560px){
+  .DD{
+    width: 477px;
+  }
+}
+
 @media screen and (max-width:1480px) {
   .DD{
     width: 477px;
