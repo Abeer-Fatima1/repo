@@ -330,13 +330,14 @@ main{
   .menu{
     margin-left: 800px;
   }
+
+  .Parent{
+    height: 89vh; 
+    background-size: 100vw 100vh;
+ }
 }
 
 @media screen and (max-width:1100px) {
-  .Parent{
-    height: 573px;
-  }
-
   .menu{
     margin-left: 700px;
   }
@@ -345,8 +346,8 @@ main{
 @media screen and (max-width:1081px)
 {
   .Parent{
-    height: 59vh; 
-    background-size: 100vw 69vh;
+    height: 79vh; 
+    background-size: 100vw 89vh;
  }
 
  .pat{
@@ -441,8 +442,8 @@ top: 50px;
 
 @media screen and (max-width:784px) {
   .Parent{
-    height: 50vh; 
-    background-size: 100vw 50vh;
+    height: 60vh; 
+    background-size: 100vw 60vh;
  }
 }
 
@@ -567,7 +568,7 @@ top: 50px;
 {
 
   .Parent{
-    height: 65vh;
+    height: 75vh;
   }
 
   .menu{
@@ -975,9 +976,6 @@ top: 50px;
 }
 
 @media screen and (max-width:508px) {
-  .main2{
-    height: 100vh;
-  }
   
   .yo{
     height: 42vh;
@@ -986,12 +984,6 @@ top: 50px;
   .yo img{
     height: 42vh;
   }
-}
-
-@media screen and (max-width:518px) {
-.main2{
-  height: 98vh;
-}
 }
 
 @media screen and (max-width:428px) {
@@ -1012,7 +1004,7 @@ top: 50px;
   }
 
   .fan{
-    height: 70vh;
+    height: 80vh;
   }
 }
 
@@ -1028,7 +1020,7 @@ top: 50px;
   }
 
   .main2{
-    height: 90vh;
+    height: 99vh;
   }
 
   .yo{
@@ -2033,32 +2025,6 @@ top: 50px;
     }
   }
 
-  @media screen and (max-width:406px) {
-    .box{
-      margin-top: 100px;
-      height: 100vh;
-      width: 97vw;
-      background-size: 390vw 130vh;
-      background-position: 48% 0%;
-    }
-
-    .box1{
-      flex-direction: column;
-      padding-left: 0px;
-      padding-top: 120px;
-      height: 100vh;
-      width: 97vw;
-    }
-
-    .box2d{
-      height: 18vh;
-    }
-
-    .box3{
-      height: 60vh;
-    }
-  }
-
   @media screen and (max-width:426px) {
     .box{
       width: 110vw;
@@ -2246,9 +2212,6 @@ top: 50px;
 }
 
 @media screen and (max-width:351px) {
-  .tol{
-font-size: 10px;
-  }
 
   .tol1 p{
     width: 300px;
@@ -2473,7 +2436,6 @@ font-size: 10px;
     align-items: center;
     width:100vw;
     height: 90vh;
-    padding-left: 40px;
   }
 
   .box22{
@@ -2483,15 +2445,11 @@ font-size: 10px;
     width:100vw;
     color: white;
     margin-top: 70px;
+    font-size: 12px;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
     margin-bottom: 30px;
     padding-right: 100px;
-  }
-
-  .box22 p:nth-child(1){
-    font-size: 10px;
   }
 
   .box22 p:nth-child(2){
@@ -2521,6 +2479,7 @@ font-size: 10px;
     height: 40vh;
     width:70vw;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
   }
 
@@ -2614,7 +2573,7 @@ font-size: 10px;
   margin: 0 2px;
   background-color:rgb(160, 181, 252);
   border-radius: 50%;
-  top:400px;
+  top:200px;
   right:480px;
   margin-right: 5px;
   box-shadow:0 0 0.6px 2px rgb(104, 136, 243);
@@ -2627,7 +2586,7 @@ font-size: 10px;
   background-color: white;
   border-radius: 50%; 
   position: relative;
-  top:400px;
+  top:200px;
   right:480px;
 }
 
@@ -2797,14 +2756,14 @@ font-size: 10px;
   }
 
   .box44{
-    width: 80vw;
+    width: 50vw;
   }
 
   .box22{
     font-size: 10px;
   }
 
-  .box22 p{
+  .box22 p:nth-child(2){
     font-size: 25px;
   }
 
@@ -2814,6 +2773,67 @@ font-size: 10px;
 
   .circle{
     left:196px;
+  }
+}
+
+@media screen and (max-width:644px) {
+  .circle{
+    left:186px;
+  }
+
+  .doty{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .circle{
+    left:156px;
+  }
+
+  .doty{
+    margin-left: 20px;
+  }
+
+  .box33{
+width: 50vw;
+  }
+
+  .box44 p{
+    width: 240px;
+  }
+
+  .bx {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width:516px) {
+  .circle{
+    left:146px;
+  }
+
+  .doty{
+    margin-left: 20px;
+    margin-top: 80px;
+  }
+
+  .box44 p{
+    width: 220px;
+  }
+}
+
+@media screen and (max-width:430px) {
+  .circle{
+    left:136px;
+  }
+
+  .doty{
+    margin-left: 20px;
+  }
+
+  .box44 p{
+    width: 200px;
   }
 }
 
@@ -2829,37 +2849,42 @@ font-size: 10px;
     height: 100vh;
   }
 
-  .box33{
-    padding-right: 80px;
+  .circle{
+    left: 180px;
+  }
+
+  .circle{
+    left:116px;
+  }
+
+  .doty{
+    margin-left: 20px;
+  }
+
+  .box44 p{
+    width: 180px;
   }
 }
 
-@media screen and (max-width:384px) {
-  .box33{
-    padding-right: 20px;
+@media screen and (max-width:392px) {
+ 
+  .box44 p{
+    width: 160px;
   }
 
-  .box44{
-    width: 100vw;
-  }
-}
-
-@media screen and (max-width:343px) {
-  .box10{
-    width:150vw;
-    height: 100vh; 
-    background-size: 150vw 135vh;
+  .doty{
+    margin-left: 20px;
   }
 
-  .box11{
-    width:150vw;
-    height: 100vh;
+  .bx {
+    padding-left: 70px;
   }
 }
 
 @media screen and (max-width:337px) {
-  .box44{
-    width: 110vw;
+ 
+  .box44 p{
+    width: 160px;
   }
 }
 
@@ -3310,8 +3335,8 @@ font-size: 10px;
     }
 
     .ring2d img{
-      width: 90vw;
-      height: 20vh;
+      width: 100vw;
+      height: 40vh;
   }
   }
 
@@ -3323,6 +3348,10 @@ font-size: 10px;
     .ring1{
       margin-top: 50px;
     }
+
+    .ring2d img{
+      width: 110vw;
+  }
   }
 
   @media screen and (max-width:352px) {
