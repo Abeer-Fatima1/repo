@@ -364,7 +364,7 @@ main{
 
 @media screen and (max-width:948px) {
   .Parent{
-    height: 50vh; 
+    height: 60vh; 
     background-size: 100vw 60vh;
  }
 
@@ -825,19 +825,19 @@ top: 50px;
     display: flex;
     flex-direction: column;
     width:100vw;
-    height: 120vh;
+    height: 130vh;
     padding-left: 0px;
   }
   
   .yo{
     width: 95vw;
-    height: 52vh;
+    height: 70vh;
     margin-left: 10px;
   }
   
   .yo img{
     width: 95vw;
-    height: 50vh;
+    height: 70vh;
     object-fit: cover;
   }
   
@@ -978,11 +978,11 @@ top: 50px;
 @media screen and (max-width:508px) {
   
   .yo{
-    height: 42vh;
+    height: 57vh;
   }
   
   .yo img{
-    height: 42vh;
+    height: 57vh;
   }
 }
 
@@ -1024,11 +1024,11 @@ top: 50px;
   }
 
   .yo{
-    height: 38vh;
+    height: 48vh;
   }
   
   .yo img{
-    height: 38vh;
+    height: 48vh;
   }
 
   .yum img{
@@ -1039,15 +1039,19 @@ top: 50px;
   .mq1 p{
     width: 300px;
   }
+
+  .main2 {
+    height: 110vh;
+  }
 }
 
 @media screen and (max-width:388px) {
   .yo{
-    height: 35vh;
+    height: 40vh;
   }
   
   .yo img{
-    height: 35vh;
+    height: 40vh;
   }
 }
 
@@ -2843,6 +2847,10 @@ width: 50vw;
   .box44 p{
     width: 190px;
   }
+
+  .box22{
+    padding-left: 40px;
+  }
 }
 
 @media screen and (max-width:403px) {
@@ -2858,11 +2866,7 @@ width: 50vw;
   }
 
   .circle{
-    left: 180px;
-  }
-
-  .circle{
-    left:116px;
+    left: 105px;
   }
 
   .doty{
@@ -3294,7 +3298,7 @@ width: 50vw;
   @media screen and (max-width:680px) {
     .ring {
       flex-direction: column-reverse;
-      height: 66vh;
+      height: 86vh;
     }
 
     .ring2d{
@@ -3339,7 +3343,7 @@ width: 50vw;
   @media screen and (max-width:406px) {
     .ring{
       width:110vw;
-      height: 56vh;
+      height: 116vh;
     }
 
     .ring1{
@@ -3364,10 +3368,6 @@ width: 50vw;
 
     .ring2d img{
       width: 110vw;
-  }
-
-  .ring {
-    height: 36vh;
   }
   }
 
@@ -3813,7 +3813,7 @@ width: 50vw;
       width: 400px;
       height: 20vh;
       margin-top: 850px;
-      padding-bottom: 0;
+      padding-bottom: 80px;
     }
 
     .kit61 .fa-phone{
