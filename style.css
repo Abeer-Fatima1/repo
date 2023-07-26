@@ -1106,6 +1106,14 @@ top: 80px;
     height: 80vh;
   }
 
+  .yen{
+    width: 94vw;
+  }
+
+  .str p{
+    width: 94vw;
+  }
+
   .yo{
     height: 48vh;
   }
@@ -3833,7 +3841,6 @@ width: 50vw;
       font-size: 11px;
       margin-bottom: 15px;
       width: 140px;
-      border: 2px solid black;
     } 
   }
 
