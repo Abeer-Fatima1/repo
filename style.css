@@ -95,7 +95,7 @@ main{
 
 .DD1{
     display: flex;
-    width: 100vw;
+    width: 99.85vw;
     padding-right: 1.5px;
     align-items: center;
     height: 10vh;
@@ -714,6 +714,7 @@ top: 80px;
 .yo{
     float:left;
     height: 60vh;
+    width: 30vw;
 }
 
 .yo img{
@@ -1343,9 +1344,10 @@ top: 80px;
   font-size: 15px;
   font-weight: 200;
   font-family: "Poppins",Arial,sans-serif;
-  width:90vw;
   color: grey;
   line-height: 1.5;
+  padding-left: 10px;
+  width: 90vw;
 }
 }
 
@@ -1411,7 +1413,7 @@ top: 80px;
   }
 
   .tol p{
-  margin-left: 20px;
+  margin-left: 0px;
   }
 }
 
@@ -1475,7 +1477,6 @@ top: 80px;
     align-items: center;
     width:300px;
     height: 180px;
-   
   }
 
   .grid-item10 p:nth-child(1){
@@ -1570,6 +1571,14 @@ top: 80px;
     .grid-item10{
       width: 180px;
       height: 200px;
+    }
+
+    .grid-item10 p:nth-child(1){
+      font-size: 14px;
+    }
+
+    .grid-item10 p:nth-child(2){
+      font-size: 12px;
     }
 
     .grid-item10 p:nth-child(3){
@@ -1862,7 +1871,7 @@ top: 80px;
   .btl{
   background-color: rgb(246, 79, 79);
   color: white;
-  width: 30vw;
+  width: 20vw;
   height: 50px;
   border-radius: 2rem;
   border-style: none;  
@@ -2650,7 +2659,7 @@ top: 80px;
   .box44 p{
     text-align: center;
     margin-bottom: 10px;
-    width:260px;
+    width:240px;
     height: 60px;
     font-size: 14px;
     font-weight: 200;
@@ -2875,6 +2884,16 @@ top: 80px;
     right:400px;
   }
 
+}
+
+@media screen and (max-width:1187px){
+  .dot {
+    right:385px;
+  }
+  
+  .dot1{
+    right:385px;
+  }
 }
 
 @media screen and (max-width:1180px){
@@ -3140,6 +3159,7 @@ top: 80px;
     width: 70vw;
     font-size: 10px;
     text-align: center;
+    padding-right: 0px;
   }
 
   .box22 p:nth-child(2){
@@ -3276,6 +3296,12 @@ width: 50vw;
 }
 
 @media screen and (max-width:337px) {
+.box22 p:nth-child(2) {
+  width: 90vw;
+}
+}
+
+@media screen and (max-width:337px) {
  
   .box44 p{
     width: 140px;
@@ -3301,7 +3327,7 @@ width: 50vw;
     font-weight: 800;
     font-family: sans-serif;
     height: 150px;
-    width: 40vw;
+    width: 100vw;
     padding-top: 100px;
     padding-bottom: 20px;
     text-align: center;
@@ -3312,17 +3338,8 @@ width: 50vw;
     font-size: 14px;
     font-weight: 200;
     font-family: "Poppins",Arial,sans-serif;
-    width:450px;
-    margin-left: 50px;
     color: grey;
     text-align: center;
-}
-
-@media screen and (max-width:1080px) {
-  .tol2 p{
-    width:350px;
-    margin-left: 0px;
-  }
 }
 
 @media screen and (max-width:680px) {
@@ -3494,9 +3511,6 @@ width: 50vw;
   }
 
   @media screen and (max-width:1380px) {
-    .grid-container2 {
-      margin-left: 110px;
-    }
 
     .grid-itemml {
       width:37px;
@@ -3506,6 +3520,12 @@ width: 50vw;
     .grid-itemm{
       width:180px;
       height: 250px;
+    }
+  }
+
+  @media screen and (max-width:1188px) {
+    .grid-container2 {
+      margin-left: 190px;
     }
   }
 
@@ -3572,6 +3592,14 @@ width: 50vw;
   .grid-container2 {
     margin-left: 90px;
   }
+}
+
+
+@media screen and (max-width:755px){
+
+.grid-container2 {
+  margin-left: 45px;
+}
 }
 
   @media screen and (max-width:740px){
@@ -3960,7 +3988,7 @@ width: 50vw;
     display: flex;
     flex-direction: column;
     margin-top: 100px;
-    width: 300px;
+    width: 280px;
     height: 300px;
      }
 
