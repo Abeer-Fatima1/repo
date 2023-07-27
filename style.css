@@ -2602,7 +2602,6 @@ top: 80px;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    padding-right: 100px;
   }
 
   .box22 p:nth-child(2){
@@ -2750,21 +2749,84 @@ top: 80px;
   right:460px;
 }
 
-@media screen and (max-width:1380px){
-  .circle{
-    left: 150px;
-  }
-
-  .box33{
-    margin-left: 170px;
-  }
-
+@media screen and (max-width:1583px){
   .dot {
-    right:400px;
+    right:495px;
   }
   
   .dot1{
-    right:400px;
+    right:495px;
+  }
+}
+
+@media screen and (max-width:1540px){
+  .dot {
+    right:485px;
+  }
+  
+  .dot1{
+    right:485px;
+  }
+}
+
+
+@media screen and (max-width:1500px){
+  .dot {
+    right:475px;
+  }
+  
+  .dot1{
+    right:475px;
+  }
+}
+
+@media screen and (max-width:1470px){
+  .dot {
+    right:465px;
+  }
+  
+  .dot1{
+    right:465px;
+  }
+}
+
+@media screen and (max-width:1450px){
+  .dot {
+    right:455px;
+  }
+  
+  .dot1{
+    right:455px;
+  }
+}
+
+@media screen and (max-width:1420px){
+  .dot {
+    right:445px;
+  }
+  
+  .dot1{
+    right:445px;
+  }
+}
+
+
+
+@media screen and (max-width:1380px){
+  .circle{
+    left: 45px;
+  }
+
+  .box33{
+    margin-left: 0px;
+  }
+
+  .dot {
+    right:440px;
+  }
+  
+  .dot1{
+    right:440px;
   }
 
   .box22{
@@ -2778,6 +2840,16 @@ top: 80px;
 
   .box11{
     height: 90vh;
+  }
+}
+
+@media screen and (max-width:1317px){
+  .dot {
+    right:415px;
+  }
+  
+  .dot1{
+    right:415px;
   }
 }
 
@@ -2796,11 +2868,11 @@ top: 80px;
 
     
   .dot {
-    right:350px;
+    right:400px;
   }
   
   .dot1{
-    right:350px;
+    right:400px;
   }
 
 }
@@ -2828,7 +2900,6 @@ top: 80px;
     right:370px;
   }
 }
-
 
 @media screen and (max-width:1142px){
   .box44 p{
