@@ -7,8 +7,8 @@ body{
     min-height: 100vh;
 }
 
-main{
-    display: flex;
+.main{
+    overflow: hidden;
 }
 
 .Parent{
@@ -28,16 +28,16 @@ main{
 }
 
 .PDiv{
-    position: absolute;
     width:100vw;
     background-color:rgba(12, 102, 237, 1);
     display: flex;
     color:white;
     height:30px;
+    z-index: 1;
 }
 
 .Div1{
-    width:400px;
+    width:100vw;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -51,10 +51,9 @@ main{
 }
 
 .Div2{
-    width:700px;
+    width:100vw;
     display:flex;
-    align-items: center;
-    padding-left:100px;
+    align-items: center;  
     font-family: "Poppins",Arial,sans-serif;
     font-size: 14px;
 }
@@ -65,20 +64,27 @@ main{
 }
 
 .Div3{
-    width:600px;
+    width:100vw;
     display:flex;
     align-items: center;
     justify-content: center;
     font-family: "Poppins",Arial,sans-serif;
     font-size: 14px;
-    padding-left: 200px;
+}
+
+.q{
+overflow: hidden;
 }
 
 .Pdiv2{
-   position:absolute;
    top:30px;
    height: 10vh;
    width: 100vw;
+}
+
+.Ds{
+  display: flex;
+  width: 100vw;
 }
 
 .DD{
@@ -90,12 +96,12 @@ main{
     height: 10vh;
     font-weight:900;
     align-items: center;
-   padding-right: 85px;
+   padding-right: 45px;
 }
 
 .DD1{
     display: flex;
-    width: 99.85vw;
+    width: 100vw;
     padding-right: 1.5px;
     align-items: center;
     height: 10vh;
@@ -181,7 +187,7 @@ main{
   }
 }
 
-@media screen and (max-width:1480px) {
+@media screen and (max-width:1484px) {
   .DD{
     width: 477px;
   }
@@ -189,55 +195,37 @@ main{
 
 @media screen and (max-width:1479px) {
   .DD{
-    width: 420px;
+    width: 450px;
   }
 }
 
-@media screen and (max-width:1450px) {
+@media screen and (max-width:1441px) {
   .DD{
     width: 430px;
   }
 }
 
-@media screen and (max-width:1440px) {
-  .DD{
-    width: 400px;
-  }
-}
-
 @media screen and (max-width:1430px) {
   .DD{
-    width: 390px;
+    width: 420px;
   }
 }
 
 @media screen and (max-width:1420px) {
   .DD{
-    width: 380px;
+    width: 410px;
   }
 }
 
-@media screen and (max-width:1410px) {
+@media screen and (max-width:1393px) {
   .DD{
-    width: 370px;
-  }
-}
-
-@media screen and (max-width:1400px) {
-  .DD{
-    width: 360px;
-  }
-}
-
-@media screen and (max-width:1390px) {
-  .DD{
-    width: 350px;
+    width: 400px;
   }
 }
 
 @media screen and (max-width:1385px) {
   .DD{
-    width: 350px;
+    width: 390px;
   }
 
   .Parent{
@@ -248,32 +236,39 @@ main{
 
 @media screen and (max-width:1370px) {
   .DD{
-    width: 340px;
+    width: 380px;
   }
 }
 
 @media screen and (max-width:1360px) {
   .DD{
-    width: 330px;
+    width: 370px;
   }
 }
 
 @media screen and (max-width:1350px) {
   .DD{
-    width: 320px;
+    width: 360px;
   }
 }
 
 @media screen and (max-width:1340px) {
   .DD{
-    width: 300px;
+    width: 350px;
   }
 }
 
 @media screen and (max-width:1339px) {
   .DD{
-    width: 250px;
+    width: 340px;
   }
+}
+
+@media screen and (max-width:1293px)
+{
+ .DD{
+  width: 300px;
+}
 }
 
 @media screen and (max-width:1251px)
@@ -282,6 +277,17 @@ main{
     height: 80vh; 
     background-size: 100vw 80vh;
  }
+
+ .DD{
+  width: 280px;
+}
+}
+
+@media screen and (max-width:1231px)
+{
+ .DD{
+  width: 250px;
+}
 }
 
 @media screen and (max-width:1190px) {
@@ -328,11 +334,7 @@ main{
   }
 }
 
-@media screen and (max-width:1186px) {
-  .menu{
-    margin-left: 870px;
-  }
-
+@media screen and (max-width:1187px) {
   .Parent{
     height: 89vh; 
     background-size: 100vw 90vh;
@@ -345,19 +347,19 @@ main{
 
 @media screen and (max-width:1146px) {
   .menu{
-    margin-left: 850px;
+    margin-left: 900px;
   }
 }
 
 @media screen and (max-width:1100px) {
   .menu{
-    margin-left: 800px;
+    margin-left: 850px;
   }
 }
 
 @media screen and (max-width:1050px) {
   .menu{
-    margin-left: 700px;
+    margin-left: 800px;
   }
 }
 
@@ -373,10 +375,16 @@ main{
  }
 }
 
+@media screen and (max-width:991px) {
+  .menu{
+    margin-left: 750px;
+  }
+}
+
 
 @media screen and (max-width:940px) {
   .menu{
-    margin-left: 600px;
+    margin-left: 700px;
   }
 }
 
@@ -387,7 +395,7 @@ main{
  }
 
 .pat{
-top: 80px;
+top: 100px;
 }
 
 .pat p:nth-child(1)
@@ -455,19 +463,37 @@ top: 80px;
 
 @media screen and (max-width:887px) {
   .menu{
-    margin-left: 500px;
+    margin-left: 650px;
   }
   .Parent{
-    height: 60vh; 
+    height: 66vh; 
     max-width: 100vw;
-    background-size: 100vw 60vh;
+    background-size: 100vw 66vh;
  }
 
  .pat{
-  top:60px;
+  top:110px;
  }
 }
 
+@media screen and (max-width:842px) {
+  .menu{
+    margin-left: 600px;
+  }
+}
+
+
+@media screen and (max-width:791px) {
+  .menu{
+    margin-left: 550px;
+  }
+}
+
+@media screen and (max-width:740px) {
+  .menu{
+    margin-left: 500px;
+  }
+}
 
 @media screen and (max-width:700px) {
   .menu{
@@ -530,7 +556,7 @@ top: 80px;
 .menu{
   display: flex;
   float: right;
-  margin-left: 240px;
+  margin-left: 340px;
   align-items: center;
   justify-content: center;
   color:grey;
@@ -667,7 +693,7 @@ top: 80px;
 @media screen and (max-width:367px)
 {
   .menu{
-    margin-left:40px;
+    margin-left:130px;
   }
 }
 
@@ -775,8 +801,8 @@ top: 80px;
 
 @media screen and (max-width:1300px) {
   .yo img{
-    height: 50vh;
-    width: 28vw;
+    height: 60vh;
+    width: 33vw;
   }
 }
 
@@ -800,6 +826,7 @@ top: 80px;
   padding-top: 10px;
   padding-bottom: 0px;
   padding-right: 0px;
+  margin-left: 50px;
 }
 
 .str p{
@@ -828,6 +855,10 @@ top: 80px;
   .main2{
     padding-left: 10px;
   }
+
+  .str{
+    margin-left: 150px;
+  }
 } 
 
 @media screen and (max-width:880px) {
@@ -849,6 +880,16 @@ top: 80px;
     height: 50vh;
     object-fit: cover;
   }
+
+  .str{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width:780px) {
+  .str{
+    margin-left: 0px;
+  }
 }
 
 @media screen and (max-width:680px) {
@@ -862,7 +903,7 @@ top: 80px;
   .yo{
     width: 79vw;
     height: 90vh;
-    margin-left: 10px;
+    margin-left: 30px;
   }
   
   .yo img{
@@ -872,7 +913,7 @@ top: 80px;
   }
   
   .str{
-    margin-left: 10px;
+    margin-left: 0px;
     padding: 0 0 0 0;
     width:70vw;
     height: 300px;
@@ -883,35 +924,39 @@ top: 80px;
   .str p{
     width:70vw;
     color: grey;
-    font-size: 20px;
-    width: 96vw;
-    padding-top: 30px;
+    font-size: 19px;
+    width: 93vw;
+    padding-top: 20px;
+    margin-left: 40px;
   }
   
   .yen{
-    font-size: 42px;
-    width: 96vw;
+    font-size: 40px;
+    width: 93vw;
     padding-bottom: 25px;
     font-weight: bolder;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 900;
+    margin-left: 40px;
   }
 
   .bt1{
     color: white;
-    width: 98vw;
+    width: 94vw;
     height: 60px;
     border-radius: 2rem;
     border-style: none;
     margin-bottom: 10px;
+    margin-left: 20px;
   }
   
   .bt2{
     color: white;
-    width: 98vw;
+    width: 94vw;
     height: 60px;
     border-radius: 2rem;
     border-style: none;
+    margin-left: 20px;
   }
   
   .mq{
@@ -1021,6 +1066,18 @@ top: 80px;
   }
 }
 
+@media screen and (max-width:570px) {
+  .yen{
+    margin-left: 30px;
+    width: 90vw;
+  }
+
+  .str p{
+    margin-left: 30px;
+    width: 90vw;
+  }
+}
+
 @media screen and (max-width:508px) {
   
   .yo{
@@ -1028,11 +1085,19 @@ top: 80px;
   }
   
   .yo img{
+    margin-left: 0px;
     height: 56vh;
   }
 
-}
+  .bt1{
+    margin-left: 10px;
+  }
 
+  .bt2{
+    margin-left: 10px;
+  }
+
+}
 
 @media screen and (max-width:445px) {
   .fan input[type=text]{
@@ -1041,8 +1106,12 @@ top: 80px;
   }
 
     .bt555{
-    width: 90vw;
+    width: 94vw;
     height: 50px;
+  }
+
+  .yo{
+    margin-left: 25px;
   }
 
   .fan{
@@ -1057,15 +1126,6 @@ top: 80px;
 }
 
 @media screen and (max-width:418px) {
-
-  .yen{
-    width: 94vw;
-  }
-
-  .str p{
-    width: 94vw;
-  }
-
   .yo{
     height: 48vh;
   }
@@ -1090,12 +1150,17 @@ top: 80px;
   .mq{
     margin-top: 160px;
   }
+
+  .yen{
+    font-size: 38px;
+  }
 }
 
 
 @media screen and (max-width:388px) {
   .yo{
     height: 40vh;
+    margin-left: 20px;
   }
   
   .yo img{
@@ -1106,21 +1171,24 @@ top: 80px;
 @media screen and (max-width:367px) {
  
   .str p{
-    width: 75vw;
+    width: 89vw;
     font-size: 12px;
     padding-top: 0;
+    margin-left: 18px;
     }
     
     .yen{
       font-size: 25px;
+      height: 60px;
+      margin-left: 18px;
     }
   
     .bt1{
-      width: 80vw;
+      width: 93vw;
     }
     
     .bt2{
-      width: 80vw;
+      width: 93vw;
     }
 
     .mq{
@@ -1643,7 +1711,6 @@ top: 80px;
     .grid-container {
       display: grid;
       grid-template-columns: auto;
-      /*row-gap: 15px;*/
       margin-left: 0px;
       margin-top: 3000px;
     }
@@ -1884,6 +1951,7 @@ top: 80px;
   .box{
     height: 84vh; 
     background-size: 100vw 88vh;
+    margin-top: 400px;
  }
 
  .box1{
@@ -2017,6 +2085,10 @@ top: 80px;
     .box2 p{
       font-size: 29px;
       width: 28vw;
+    }
+
+    .box{
+      margin-top: 300px;
     }
 
     .box4{
@@ -2536,12 +2608,12 @@ top: 80px;
     
     .grid-item1 {
       width:65px;
-      height: 65px;
+      height: 105px;
     }
 
     .grid-item1 img{
       width:90vw;
-      height: 280px;
+      height: 380px;
     }
 
     .grid-item11{
@@ -2567,7 +2639,39 @@ top: 80px;
     }
   }
 
+  @media screen and (max-width:490px){
+    .grid-item1 img{
+      height: 340px;
+    }
 
+    .grid-item11 img{
+      width: 10px;
+      height: 9px;
+    }
+  }
+
+  @media screen and (max-width:432px){
+    .grid-item1 img{
+      height: 320px;
+    }
+
+    .grid-item11 img{
+      width: 10px;
+      height: 9px;
+    }
+  }
+
+  @media screen and (max-width:354px){
+    .grid-item1 img{
+      height: 260px;
+    }
+
+    .grid-item11 img{
+      width: 10px;
+      height: 9px;
+    }
+  }
+  
 
 
 
@@ -2641,7 +2745,6 @@ top: 80px;
     width:90vw;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
   }
 
   .box44{
@@ -2688,7 +2791,6 @@ top: 80px;
     text-align: center;
     margin-bottom: 10px;
     width:240px;
-    padding-left: 35px;
     height: 60px;
     font-size: 14px;
     font-weight: 200;
@@ -2721,7 +2823,6 @@ top: 80px;
     font-weight: 200;
     font-size: 14px;
     font-family: "Poppins",Arial,sans-serif;
-    padding-left: 35px;
   }
 
   .box66 img{
@@ -2730,12 +2831,14 @@ top: 80px;
     clip-path: circle(48%);
 }
 
-.doty{
-  display: none;
+.dt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
 }
 
 .dot {
-  position: relative;
   height: 7px;
   width: 7px;
   margin: 0 2px;
@@ -2753,94 +2856,15 @@ top: 80px;
   margin-right: 5px;
   background-color: white;
   border-radius: 50%; 
-  position: relative;
   top:200px;
   right:460px;
 }
-
-@media screen and (max-width:1583px){
-  .dot {
-    right:495px;
-  }
-  
-  .dot1{
-    right:495px;
-  }
-}
-
-@media screen and (max-width:1540px){
-  .dot {
-    right:485px;
-  }
-  
-  .dot1{
-    right:485px;
-  }
-}
-
-
-@media screen and (max-width:1500px){
-  .dot {
-    right:475px;
-  }
-  
-  .dot1{
-    right:475px;
-  }
-}
-
-@media screen and (max-width:1470px){
-  .dot {
-    right:465px;
-  }
-  
-  .dot1{
-    right:465px;
-  }
-}
-
-@media screen and (max-width:1450px){
-  .dot {
-    right:455px;
-  }
-  
-  .dot1{
-    right:455px;
-  }
-}
-
-@media screen and (max-width:1420px){
-  .dot {
-    right:445px;
-  }
-  
-  .dot1{
-    right:445px;
-  }
-}
-
-
 
 @media screen and (max-width:1380px){
   .circle{
     left: 45px;
   }
 
-  .box33{
-    margin-left: 0px;
-  }
-
-  .dot {
-    right:440px;
-  }
-  
-  .dot1{
-    right:440px;
-  }
-
-  .box22{
-    padding-right: 50px;
-  }
 
   .box10{
     height: 90vh; 
@@ -2852,53 +2876,23 @@ top: 80px;
   }
 }
 
-@media screen and (max-width:1317px){
-  .dot {
-    right:415px;
-  }
-  
-  .dot1{
-    right:415px;
-  }
-}
-
-@media screen and (max-width:1233px){
-  .box55 p{
-    padding-left: 0px;
-   }
- 
-   .box66 p{
-     padding-left: 20px;
-    }
-
-    .box44 p{
-      padding-left: 10px;
-    }
-
-    
-  .dot {
-    right:400px;
-  }
-  
-  .dot1{
-    right:400px;
-  }
-
-}
-
 @media screen and (max-width:1187px){
-  .dot {
-    right:385px;
+  .box10{
+    height: 100vh; 
+    background-size: 100vw 100vh;
   }
-  
-  .dot1{
-    right:385px;
+
+  .box11{
+    height: 100vh;
+  }
+
+  .dt{
+    margin-top: 70px;
   }
 }
 
 @media screen and (max-width:1180px){
   .box44 p{
-    padding-left: 0px;
     width:220px;
     font-size: 14px;
   }
@@ -2907,35 +2901,21 @@ top: 80px;
     left: 40px;
   }
 
-  .box33{
-    margin-left: 0px;
-  }
-
-  .dot {
-    right:370px;
-  }
-  
-  .dot1{
-    right:370px;
-  }
 }
 
 @media screen and (max-width:1142px){
   .box44 p{
-    padding-left: 30px;
     width:190px;
     font-size: 14px;
   }
 
   
   .box55 p{
-    padding-left: 20px;
     width:190px;
     font-size: 12px;
   }
 
   .box66 p{
-    padding-left: 20px;
     width:190px;
     font-size: 12px;
   }
@@ -2947,45 +2927,7 @@ top: 80px;
   .box33{
     margin-left: 0px;
   }
-
-  .dot1{
-    right:360px;
-  }
-
-  .dot{
-    right:360px;
-  }
 }
-
-@media screen and (max-width:1083px){
-.dot1{
-  right:350px;
-}
-
-.dot{
-  right:350px;
-}
-}
-
-@media screen and (max-width:1048px){
-  .dot1{
-    right:340px;
-  }
-  
-  .dot{
-    right:340px;
-  }
-  }
-
-  @media screen and (max-width:1020px){
-    .dot1{
-      right:330px;
-    }
-    
-    .dot{
-      right:330px;
-    }
-    }
 
 
 @media screen and (max-width:980px){
@@ -2994,8 +2936,6 @@ top: 80px;
     width:140px;
     font-size: 12px;
   }
-
-
 
   .box33{
     margin-left: 0px;
@@ -3013,93 +2953,20 @@ top: 80px;
     padding-left: 0px;
    }
 
-      
-  .dot {
-    right:330px;
-  }
-  
-  .dot1{
-    right:330px;
+   .dt{
+    margin-top: 90px;
   }
 }
 
-@media screen and (max-width:950px){
-  .dot1{
-    right:320px;
-  }
-  
-  .dot{
-    right:320px;
-  }
-  }
-
-  @media screen and (max-width:920px){
-    .dot1{
-      right:310px;
-    }
-    
-    .dot{
-      right:310px;
-    }
-    }
-
-    @media screen and (max-width:870px){
-      .dot1{
-        right:315px;
-      }
-      
-      .dot{
-        right:315px;
-      }
-      }
-
-      @media screen and (max-width:860px){
-        .dot1{
-          right:295px;
-        }
-        
-        .dot{
-          right:295px;
-        }
-        }
-
-        @media screen and (max-width:812px){
-          .dot1{
-            right:275px;
-          }
-          
-          .dot{
-            right:275px;
-          }
-          }
-
-          
-        @media screen and (max-width:760px){
-          .dot1{
-            right:255px;
-          }
-          
-          .dot{
-            right:255px;
-          }
-          }
-
-          @media screen and (max-width:720px){
-            .dot1{
-              right:245px;
-            }
-            
-            .dot{
-              right:245px;
-            }
-            }
 
 @media screen and (max-width:680px) {
-  .box55{
-    display: none;
+  .box10{
+    width:100vw;
+    height: 100vh; 
+    background-size: 120vw 135vh;
   }
 
-  .dot, .dot1{
+  .box55{
     display: none;
   }
 
@@ -3107,39 +2974,10 @@ top: 80px;
     flex-direction: column;
   }
 
-
   .box33 p{
     font-size: 15px;
     margin-left: 0px;
     width: 70vw;
-  }
-
-  .doty{
-    display: flex;
-    height: 20px;
-    width: 70px;
-    margin-top: 90px;
-    margin-left: 0px;
-  }
-
-  .dot11{
-    display: relative;
-    width: 10px;
-    height: 10px;
-    border-radius: 4rem;
-    background-color:rgb(160, 181, 252);
-    margin-right: 5px;
-    box-shadow:0 0 0.6px 2px rgb(104, 136, 243);   
-  }
-
-  .dot2{
-    display:relative;
-    width: 10px;
-    height: 10px;
-    border-radius: 4rem;
-    margin-right: 5px;
-    background-color: white;
-    top:400px;
   }
 
   .box66{
@@ -3244,30 +3082,11 @@ width: 50vw;
   .box44 p{
     width: 190px;
   }
-
-  .box22{
-    padding-left: 40px;
-  }
 }
 
 @media screen and (max-width:403px) {
-  .box10{
-    width:100vw;
-    height: 100vh; 
-    background-size: 120vw 135vh;
-  }
-
-  .box11{
-    width:100vw;
-    height: 100vh;
-  }
-
   .circle{
     left: 36px;
-  }
-
-  .doty{
-    margin-left: 0px;
   }
 
   .box44 p{
@@ -3279,10 +3098,6 @@ width: 50vw;
  
   .box44 p{
     width: 160px;
-  }
-
-  .doty{
-    margin-left: 20px;
   }
 
   .bx {
@@ -3751,7 +3566,7 @@ width: 50vw;
   @media screen and (max-width:680px) {
     .ring {
       flex-direction: column-reverse;
-      height: 110vh;
+      height: 100vh;
     }
 
     .ring2d{
@@ -3759,7 +3574,7 @@ width: 50vw;
     }
 
     .ring2d img{
-        width: 90vw;
+        width: 95vw;
         height: 40vh;
     }
 
@@ -3768,7 +3583,7 @@ width: 50vw;
     }
 
     .ring1{
-      margin-top: 250px;
+      margin-top: 50px;
     }
 
     input[type=text]{
@@ -3850,19 +3665,12 @@ width: 50vw;
     height: 73vh;
   }
 
-  .kd{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width:100vw;
-    height: 73vh;
-  }
-
   .kittt{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
     height: 50vh;
     width: 100vw;
+    column-gap: 70px;
     justify-content: center;
   }
 
@@ -3873,14 +3681,12 @@ width: 50vw;
   .kit2{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    width: 200px;
-    height: 200px;
-    padding-left: 45px;
+    align-items: center;
   }
 
   .kit2 p:nth-child(1){
-    padding-bottom: 50px;
+    width:180px;
+    padding-bottom: 30px;
     font-size: 23px;
     font-weight: 700;
     font-size: 17px;
@@ -3893,20 +3699,15 @@ width: 50vw;
   }
 
   .kit3{
-    margin-top: 100px;
-    margin-left: 40px;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    padding-left: 20px;
-    width: 300px;
-    height: 300px;
     align-items: center;
      }
 
   .kit3 p:nth-child(1){
+    width:100px;
     padding-right: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     font-size: 17px;
     font-weight: 700;
     font-family: "Poppins";
@@ -3920,24 +3721,20 @@ width: 50vw;
   .kit3 ul li{
     padding-bottom:10px;
     color: rgb(88, 135, 255);
-    font-size: 11px;
+    font-size: 13px;
     font-family: "Poppins";
   }
 
   .kit4{
-    margin-top: 100px;
-    margin-left: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
-    width: 300px;
-    height: 300px;
     font-family: "Poppins";
      }
 
   .kit4 p:nth-child(1){
-    padding-bottom: 50px;
+    width:65px;
+    padding-bottom: 30px;
     font-size: 17px;
     font-weight: 700;
     font-family: "Poppins";
@@ -3951,21 +3748,19 @@ width: 50vw;
   .kit4 ul li{
     padding-bottom:10px;
     color: rgb(88, 135, 255);
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .kit5{
-    margin-top: 100px;
-    margin-left: 40px;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 300px;
     font-family: "Poppins";
+    align-items: center;
      }
 
   .kit5 p:nth-child(1){
-    padding-bottom: 50px;
+    width:150px;
+    padding-bottom: 30px;
     font-size: 17px;
     font-weight: 700;
     font-family: "Poppins";
@@ -3978,22 +3773,17 @@ width: 50vw;
   .kit5 ul li{
     padding-bottom:10px;
     color: rgb(88, 135, 255);
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .kit6{
     font-family: "Poppins";
-    margin-top: 100px;
-    margin-left: 40px;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    width: 280px;
-    height: 300px;
      }
 
   .kit6 p:nth-child(1){
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     font-size: 17px;
     font-weight: 700;
     font-family: "Poppins";
@@ -4001,8 +3791,9 @@ width: 50vw;
 
   .kit6 ul li{
     color: rgb(74, 146, 248);
-    font-size: 11px;
+    font-size: 13px;
     margin-bottom: 15px;
+    width: 185px;
   }
 
   
@@ -4012,10 +3803,8 @@ width: 50vw;
 
   .kit7{
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 100px;
     font-family: "Poppins";
-    font-size: 12px;
+    font-size: 13px;
     color: grey;
   }
 
@@ -4055,57 +3844,89 @@ width: 50vw;
     padding-top: 2px;
   }
 
- @media screen and (max-width:1110px) {
-    
-    .kit4{
-      width: 60px;
-      font-size: 10px;
-      margin-left: 20px;
+  @media screen and (max-width:1489px) {
+    .kittt{
+      column-gap: 140px;
     }
+  }
 
-    .kit5{
-      font-size: 10px;
+  @media screen and (max-width:1332px) {
+    .kittt{
+      column-gap: 120px;
     }
+  }
 
-    .kit6{
-      font-size: 10px;
+  @media screen and (max-width:1265px) {
+    .kittt{
+      column-gap: 100px;
     }
+  }
 
-    .kit2{
-      font-size: 10px;
-      margin-left: 0;
+  @media screen and (max-width:1193px) {
+    .kittt{
+      column-gap: 80px;
     }
+  }
 
-    .kit3{
-      font-size: 10px;
-      margin-left: 0;
+  @media screen and (max-width:1107px) {
+    .kittt{
+      column-gap: 70px;
     }
+  }
+
+
+
+ @media screen and (max-width:1047px) {
+  .kittt{
+    column-gap: 60px;
+  }
 
   }
 
+  @media screen and (max-width:1002px) {
+    .kittt{
+      column-gap: 50px;
+    }
+  
+  }
+
+  @media screen and (max-width:960px) {
+    .kittt{
+      column-gap: 40px;
+    }
+    
+    }
+
+  @media screen and (max-width:925px) {
+      .kittt{
+        column-gap: 30px;
+      }
+      
+      }
+
   @media screen and (max-width:900px) {
+    .kittt{
+      column-gap: 20px;
+    }
+
     .kit2{
-      font-size: 10px;
-      margin-left: 0;
+      font-size: 12px;
     }
 
-    .kit3{
-      font-size: 10px;
-      margin-left: 0;
+    .kit3 ul li{
+      font-size: 11px;
     }
 
-    .kit4{
-      width: 60px;
-      font-size: 10px;
-      margin-left: 20px;
+    .kit4 ul li{
+      font-size: 11px;
     }
 
-    .kit5{
-      font-size: 10px;
+    .kit5 ul li{
+      font-size: 11px;
     }
 
-    .kit6{
-      font-size: 10px;
+    .kit6 ul li{
+      font-size: 11px;
     }
 
     .fa-arrow-right-long{
@@ -4115,81 +3936,73 @@ width: 50vw;
   }
 
   @media screen and (max-width:855px){
-    .kit6{
-      font-family: "Poppins";
-      margin-top: 100px;
-      margin-left: 10px;
-      display: flex;
-      flex-direction: column;
-      margin-top: 100px;
-      width: 170px;
-      height: 300px;
-       }
-  
-    .kit6 p:nth-child(1){
-      padding-bottom: 50px;
-      font-size: 17px;
-      font-weight: 700;
-      font-family: "Poppins";
-      width: 170px;
+    .kittt{
+      column-gap: 10px;
     }
-  
-    .kit6 ul li{
-      color: rgb(74, 146, 248);
-      font-size: 11px;
-      margin-bottom: 15px;
-      width: 140px;
-    } 
   }
 
   @media screen and (max-width:800px){
-    .kit6{
-      width: 120px;
-       }
-  
-    .kit6 p:nth-child(1){
-      width: 120px;
+    .kittt{
+      column-gap: 0px;
     }
-  
-    .kit6 ul li{
-      font-size: 9px;
-      width: 100px;
-    } 
 
-    .kit2{
-      padding-left: 35px;
-    }
+  .kit6 p:nth-child(1){
+    width: 165px;
   }
 
-  @media screen and (max-width:764px) {
-  .kit3{
-    width: 280px;
-     }
+  .kit6 ul li{
+    width: 160px;
+  }
+
+  }
+
+  @media screen and (max-width:751px){
+    .kit2 p:nth-child(1){
+      width:160px;
     }
+  
+    .kit2 p:nth-child(2){
+      width:160px;
+    }
+
+  }
+
+  @media screen and (max-width:725px){
+    .kit2 p:nth-child(1){
+      width:130px;
+    }
+  
+    .kit2 p:nth-child(2){
+      width:130px;
+    }
+
+  }
 
   @media screen and (max-width:700px) {
     .kittt {
-          flex-direction: column;
+      grid-template-columns: auto;
     }
 
     .kitt{
-      height: 1500px;
+      height: 220vh;
     }
 
     .kit1{
-      height: 1500px;
-      margin-top: 300px;
+      height: 220vh;
+      margin-top: 150px;
       padding-bottom: 0;
+      background-size: 290vw 250vh;
+      background-repeat: no-repeat;
     }
 
     .kit2{
-      margin-top: 700px;
-      padding-left: 25px;
+      width: 300px;
       font-size: 17px;
     }
 
     .kit2 p:nth-child(1){
       height: 20px;
+      width: 300px;
     }
 
     .kit2 p:nth-child(2){
@@ -4209,8 +4022,6 @@ width: 50vw;
 
     .kit4{
       margin-top: 10px;
-      margin-left: 0px;
-      padding-left: 20px;
       font-size: 17px;
       width: 300px;
       height: 300px;
@@ -4224,7 +4035,6 @@ width: 50vw;
 
     .kit61{
       margin-top: 100px;
-      margin-left: 30px;
       display: flex;
       flex-direction: column;
       margin-top: 40px;
@@ -4240,7 +4050,7 @@ width: 50vw;
     }
   
     .kit61 ul li{
-      width: 90vw;
+      width: 400px;
       padding-bottom:10px;
       color: rgb(43, 131, 255);
       font-size: 16px;
@@ -4249,18 +4059,20 @@ width: 50vw;
 
     .kit5{
       margin-top: 10px;
-      margin-left: 0px;
-      padding-left: 25px;
       font-size: 17px;
-      width: 90vw;
+      width: 300px;
     }
 
     .kit5 ul li{
-      width: 90vw;
+      width: 300px;
       padding-bottom:10px;
       color: rgb(32, 124, 254);
       font-size: 15px;
     }
+
+    .kit5 p:nth-child(1){
+      width:300px;
+    } 
 
     .kit4 ul li{
       width: 90vw;
@@ -4286,18 +4098,24 @@ width: 50vw;
     .fo{
       display: flex;
       align-items: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
     }
 
-    .fo {
-      margin-left: 20px;
+    .twit{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2rem;
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      background-color: rgba(18, 50, 207, 0.938);
     }
 
-    .fo img{
-      width: 38px;
-      height: 38px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      margin-left: 0px;
+    .fa-facebook{
+      margin-right: 10px;
+      font-size: 40px;
     }
 
     .kit71{
@@ -4305,9 +4123,8 @@ width: 50vw;
       padding-top: 50px;
       width: 90vw;
       height: 20vh;
-      margin-top: 850px;
+      margin-top: 950px;
       text-align: center;
-      padding-bottom: 80px;
     }
 
     .kit61 .fa-phone{
@@ -4335,6 +4152,12 @@ width: 50vw;
       padding-right: 10px;
     }
   }
+
+  @media screen and (max-width:425px) {
+  .kit61 ul li{
+    width: 350px;
+  }
+}
 
   @media screen and (max-width:403px) {
     .kitt{
