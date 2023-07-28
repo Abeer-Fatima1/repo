@@ -183,11 +183,11 @@ overflow: hidden;
 
 @media screen and (max-width:1560px){
   .DD{
-    width: 477px;
+    width: 527px;
   }
 }
 
-@media screen and (max-width:1484px) {
+@media screen and (max-width:1490px) {
   .DD{
     width: 477px;
   }
@@ -460,7 +460,6 @@ top: 100px;
   }
   }
   
-
 @media screen and (max-width:887px) {
   .menu{
     margin-left: 650px;
