@@ -3843,9 +3843,56 @@ width: 50vw;
     padding-top: 2px;
   }
 
+  @media screen and (max-width:1560px){
+    .kittt{
+      column-gap: 140px;
+    }
+
+    .kit2{
+      font-size: 16px;
+    }
+
+    .kit3 ul li{
+      font-size: 16px;
+    }
+
+    .kit4 ul li{
+      font-size: 16px;
+    }
+
+    .kit5 ul li{
+      font-size: 16px;
+    }
+
+    .kit6 ul li{
+      font-size: 15px;
+    }
+
+  }
+
   @media screen and (max-width:1489px) {
     .kittt{
       column-gap: 140px;
+    }
+
+    .kit2{
+      font-size: 13px;
+    }
+
+    .kit3 ul li{
+      font-size: 13px;
+    }
+
+    .kit4 ul li{
+      font-size: 13px;
+    }
+
+    .kit5 ul li{
+      font-size: 13px;
+    }
+
+    .kit6 ul li{
+      font-size: 13px;
     }
   }
 
