@@ -1922,7 +1922,6 @@ overflow: hidden;
 
     .box4 p{
       font-size: 10px;
-      /*width: 100px;*/
     }
   
     .box5{
@@ -2499,10 +2498,10 @@ overflow: hidden;
     display: flex;
     flex-direction: column;
     width:100vw;
-    height: 110vh; 
+    height: 100vh; 
     background: url("xbg_322.png");
     background-size: cover;
-    background-size: 100vw 135vh;
+    background-size: 100vw 132vh;
     background-repeat: no-repeat;
     margin-top: 550px;
   }
@@ -2687,24 +2686,24 @@ overflow: hidden;
 
 
   .box10{
-    height: 90vh; 
-    background-size: 100vw 90vh;
+    /*height: 90vh; 
+    background-size: 100vw 90vh;*/
   }
 
   .box11{
-    height: 90vh;
+    /*height: 90vh;*/
   }
 }
 
 @media screen and (max-width:1187px){
-  .box10{
+  /*.box10{
     height: 100vh; 
     background-size: 100vw 100vh;
   }
 
   .box11{
     height: 100vh;
-  }
+  }*/
 
   .dt{
     margin-top: 70px;
