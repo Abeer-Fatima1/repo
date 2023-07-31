@@ -779,7 +779,7 @@ overflow: hidden;
     font-family: sans-serif;
     font-weight: 900;
     font-size: 25px;
-    width: 97vw;
+    width: 100vw;
     margin-top: 250px;
     background: rgba(226, 220, 220, 0.2);
   }
@@ -799,7 +799,8 @@ overflow: hidden;
   .yum{
     width: 70px;
     height: 70px;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-right: 10px;
     border-radius: 4rem;
     background-color: rgb(236, 147, 147);
     display: flex;
@@ -811,9 +812,9 @@ overflow: hidden;
     margin-left: 10px;
   }
 
-  .yum img{
-    
-  
+  .yum img{   
+    width: 70px;
+    height: 70px;
     clip-path: circle(50%);
   }
 
@@ -2683,28 +2684,9 @@ overflow: hidden;
   .circle{
     left: 45px;
   }
-
-
-  .box10{
-    /*height: 90vh; 
-    background-size: 100vw 90vh;*/
-  }
-
-  .box11{
-    /*height: 90vh;*/
-  }
 }
 
 @media screen and (max-width:1187px){
-  /*.box10{
-    height: 100vh; 
-    background-size: 100vw 100vh;
-  }
-
-  .box11{
-    height: 100vh;
-  }*/
-
   .dt{
     margin-top: 70px;
   }
